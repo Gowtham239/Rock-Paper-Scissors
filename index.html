@@ -4,8 +4,41 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Document</title>
+    <link rel="stylesheet" href="styles.css">
 </head>
 <body>
+    <div id="container">
+        <h1>ROCK, PAPER, SCISSORS</h1>
+        <h2>Game Score</h2>
+        <p id="player-score">...</p>
+        <p id="final-result">Final Winner</p>
+        <div class="game-options">
+            <div class="human">
+                <h3>Your Choice</h3>
+                <p id="human-choice">...</p>
+                <div class="score">
+                    <p>Your Score</p>
+                    <p id="human-score">0</p>
+                </div>
+            </div>
+
+            <div class="computer">
+                <h3>Computer Choice</h3>
+                <p id="computer-choice">...</p>
+                <div class="score"></div>
+                    <p>Computer Score</p>
+                    <p id="computer-score">0</p>
+                </div>
+            </div>
+            <p id="result">Result : </p>
+            <div class="btn-container">
+                <button class="btn" id="rock">Rock</button>
+                <button class="btn" id="paper">Paper</button>
+                <button class="btn" id="scissors">Scissors</button>
+            </div>
+        </div>
+
+    </div>
     <script src="app.js"></script>
 </body>
 </html>
